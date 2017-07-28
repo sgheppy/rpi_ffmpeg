@@ -18,7 +18,7 @@ sudo apt-get remove ffmpeg
 sudo apt-get install build-essential libmp3lame-dev libvorbis-dev libtheora-dev libspeex-dev yasm pkg-config libfaac-dev libopenjpeg-dev libx264-dev
 cd /usr/src/
 sudo apt-get install git
-sudo git clone git://git.videolan.org/x264
+sudo git clone https://git.videolan.org/git/x264.git
 cd x264/
 sudo ./configure --host=arm-unknown-linux-gnueabi --enable-static --disable-opencl
 sudo make
